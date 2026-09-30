@@ -1,0 +1,27 @@
+print("--4-Hierarchical Inheritance----")
+class BankAccount:
+    def login(self):
+        print("login successful.")
+    def check_balance(self):
+        print("balance is: INR 100000")
+
+class Savings(BankAccount):
+    def calculate_interest(self):
+        print("interest earned: INR 10000")
+
+class Current(BankAccount):
+    def overdraft(self):
+        print("overdraft balance: INR 25000")
+
+print("------------Savings Account----------------")
+savings=Savings()
+savings.login()
+savings.check_balance()
+savings.calculate_interest()
+print("------------Current Account----------------")
+current=Current()
+current.login()
+current.check_balance()
+current.overdraft()
+
+print("--5-Real-Time Security Platform Example----")
