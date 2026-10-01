@@ -23,5 +23,3 @@ current=Current()
 current.login()
 current.check_balance()
 current.overdraft()
-
-print("--5-Real-Time Security Platform Example----")
